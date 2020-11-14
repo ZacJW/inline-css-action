@@ -1,0 +1,12 @@
+name: "Inline-CSS"
+description: "Convert HTML files to use inline styling"
+inputs:
+  files:
+    description: "A JSON list of paths to HTML files to convert"
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: file-text
+  color: white
